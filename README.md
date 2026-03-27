@@ -4,6 +4,12 @@ A command-line interface for [Flowistry](https://github.com/willcrichton/flowist
 
 Flowistry answers questions like "which lines of code affect this value?" and "what does this expression influence?". `flowistry-cli` exposes that analysis as a clean CLI suitable for scripting, CI pipelines, and MCP tools.
 
+## Rationale
+While Flowistry already exposes a CLI, it's not suitable for human consumption - it's single-mindedly dedicated to be used by an IDE extension as a client. This tool aims to expose it in a more palatable way for more general usages.
+
+> [!NOTE]
+> Eventual end-goal is to build an MCP server that exposes Flowistry magic as tools for LLMs.
+
 ## Requirements
 
 - Rust nightly `2025-08-20` with components `rust-src`, `rustc-dev`, and `llvm-tools-preview` (the `rust-toolchain.toml` in this repo sets this up automatically)
