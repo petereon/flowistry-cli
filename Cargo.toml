@@ -20,7 +20,7 @@ name = "flowistry-driver"
 path = "src/bin/flowistry-driver.rs"
 
 [dependencies]
-flowistry = { path = "../flowistry/crates/flowistry" }
+flowistry = "=0.5.44"
 rustc_plugin = "=0.14.2-nightly-2025-08-20"
 rustc_utils = { version = "=0.14.2-nightly-2025-08-20", features = ["indexical", "serde"] }
 anyhow = "1"
