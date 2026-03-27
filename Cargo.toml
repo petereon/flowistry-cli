@@ -3,6 +3,8 @@ name = "flowistry-cli"
 version = "0.1.0"
 edition = "2024"
 description = "Clean CLI for Flowistry information-flow analysis"
+license = "MIT"
+repository = "https://github.com/petervyboch/flowistry-cli"
 
 [package.metadata.rust-analyzer]
 rustc_private = true
